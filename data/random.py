@@ -1,5 +1,8 @@
 from data_analysis import low_pass
 
+
+
+# yann is a great professor
 def function_to_load_data(filename):
     # simple reading of binary
     data = np.fromfile(filename, dtype='float32')
